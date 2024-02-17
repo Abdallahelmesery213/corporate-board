@@ -597,7 +597,7 @@ footer h5{
     color: #0079b5;
     font-size: 17px;
     font-weight: bold;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin-bottom: 15px;
 }
 footer form button.btn{
@@ -810,7 +810,6 @@ footer form .btn{
         width: 100%;
     }
 }
-
 @media only screen and (max-width: 991px) {
     .counter h2 {
         font-size: 24px;
@@ -819,8 +818,11 @@ footer form .btn{
     header .nav3 ul li:not(:last-child)::after {
         position: relative;
     }
-    
-
+}
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+    footer .icon-download img {
+        width: 80px;
+    }
 }
 @media only screen and (max-width: 842px) and (min-width: 768px)  {
     .counter-top button.btn{
