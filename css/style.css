@@ -225,37 +225,39 @@ header .nav3 ul li:not(:last-child)::after {
     background-position: right;
 }
 .banner .banner-text{
-    position: absolute;
+    /* position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%); */
+    margin-top: 15%;
 }
 .banner.bannerRight .banner-text{
     text-align: right;
     margin-right: 5%;
 }
+.banner.bannerLeft .banner-text{
+    margin-left: 5%;
+}
+
 .banner.bannerRight .banner-text p{
     margin-left: auto !important;
-}
-.banner.bannerLeft .banner-text{
-    width: inherit;
 }
 .banner .banner-text h3{
     font-family: bruumBoldFont;
     color: #0079b5;
-    font-size: 35px;
-    line-height: 47px;
+    font-size: 30px;
+    line-height: 40px;
     /* margin-bottom: 25px; */
 }
 .banner.bannerRight .banner-text .line{
     border-bottom: 1px solid #0078b5;
-    width: 50%;
+    width: 100%;
     margin-left: auto !important;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .banner.bannerLeft .banner-text .line{
     border-bottom: 1px solid #0078b5;
-    width: 50%;
+    width: 100%;
     margin-right: auto !important;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -263,7 +265,7 @@ header .nav3 ul li:not(:last-child)::after {
 .banner .banner-text p{
     /* font-family: bruumBoldFont; */
     font-size: 20px;
-    width: 70%;
+    /* width: 70%; */
 }
 .banner-1{
     background-image: url(./../images/bannerAI1.jpg);
@@ -308,6 +310,7 @@ header .nav3 ul li:not(:last-child)::after {
 .section2 h2{
     font-family: bruumBoldFont;
     color: #0079b5;
+    font-size: 25px;
 }
 .section2 .section-text{
     display: flex;
@@ -796,13 +799,13 @@ footer form .btn{
         height: 470px;
     }
     .banner .banner-text h3 {
-        font-size: 22px;
-        line-height: 30px;
-    }
-    .banner .banner-text p {
         font-size: 18px;
         line-height: 25px;
-        width: 75%;
+    }
+    .banner .banner-text p {
+        font-size: 13px;
+        line-height: 17px;
+        /* width: 75%; */
     }
 }
 @media only screen and (max-width: 1109px) {
@@ -875,25 +878,32 @@ footer form .btn{
         z-index: 99;
     }
     .banner .banner-text {
-        width: 90%;
-        position: relative;
+        width: 100%;
+        /* position: relative;
         top: 50%;
-        margin: 20% auto;
+        margin: 20% auto; */
         /* margin: auto; */
     }
     .banner .banner-text h3{
         color: #1b75bb;
         text-align: center;
+        font-size: 20px;
+        line-height: 25px;
     }
     .banner .banner-text p{
         color: #fff;
         text-align: center;
         width: 100%;
+        line-height: 25px;
+        font-size: 18px;
     }
     .banner, .bannerTop{
         width: 100%;
-        height: 400px;
+        height: 500px;
         background-position: left;
+    }
+    .banner.bannerRight .banner-text .line , .banner.bannerLeft .banner-text .line {
+        width: 100%;
     }
     /* end banners */
     /* start section2 */
