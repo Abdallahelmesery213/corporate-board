@@ -105,17 +105,17 @@ header .nav2 ul li:not(:last-child)::after {
     content: "";
     position: absolute;
     width: 2px;
-    height: 18px;
+    height: 22px;
     bottom: 2px;
-    left: 5px;
+    left: 8px;
     background-color: #fff;
 }
 header .right-part .nav2 a{
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
     font-family: bahijSemiBold;
-    margin-left: 16px;
+    margin-left: 24px;
 }
 header .right-part .nav3{
     background-color: #fff;
@@ -127,9 +127,9 @@ header .right-part .nav3{
 header .right-part .nav3 a{
     text-decoration: none;
     color: #000;
-    font-size: 14px;
+    font-size: 18px;
     font-family: bahijSemiBold;
-    margin-left: 16px;
+    margin-left: 24px;
 }
 header .nav3 ul li{
     position: relative;
@@ -140,10 +140,10 @@ header .nav3 ul li:not(:last-child)::after {
     content: "";
     position: absolute;
     width: 2px;
-    height: 18px;
+    height: 22px;
     bottom: 2px;
     background-color: #000;
-    left: 5px;
+    left: 8px;
 }
 /* end header */
 
