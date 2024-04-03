@@ -54,16 +54,17 @@ header .left-part{
     background-color: #fff;
 }
 header .right-part{
-    position: absolute;
-    width: 74%;
+    position: relative;
+    width: 100%;
     top: 0;
     left: 0;
     min-height: 115px;
 }
 header .right-part .nav1{
+    display: none;
     background-color: #f1f1f2;
     min-height: 55px;
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 header .right-part .nav1 p{
@@ -91,9 +92,10 @@ header .right-part .nav1 button{
 }
 header .right-part .nav2{
     background-color: #0079b5;
-    min-height: 60px;
+    min-height: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-right: 20px;
 }
 header .nav2 ul li{
@@ -102,6 +104,7 @@ header .nav2 ul li{
     
 }
 header .nav2 ul li:not(:last-child)::after {
+    display: none;
     content: "";
     position: absolute;
     width: 2px;
@@ -115,13 +118,14 @@ header .right-part .nav2 a{
     color: #fff;
     font-size: 18px;
     font-family: bahijSemiBold;
-    margin-left: 24px;
+    margin-left: 10px;
 }
 header .right-part .nav3{
     background-color: #fff;
     min-height: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-right: 20px;
 }
 header .right-part .nav3 a{
@@ -129,7 +133,7 @@ header .right-part .nav3 a{
     color: #000;
     font-size: 18px;
     font-family: bahijSemiBold;
-    margin-left: 24px;
+    margin-left: 10px;
 }
 header .nav3 ul li{
     position: relative;
@@ -137,6 +141,7 @@ header .nav3 ul li{
     margin-left: 0 !important;
 }
 header .nav3 ul li:not(:last-child)::after {
+    display: none;
     content: "";
     position: absolute;
     width: 2px;
